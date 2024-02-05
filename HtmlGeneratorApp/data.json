@@ -1,0 +1,31 @@
+{
+	"flowers": 22,
+	"products": [
+		{
+			"name": "Apple",
+			"price": 329,
+			"description": "flat-out fun",
+			"items": [ 1, 2, 3, 4 ]
+		},
+		{
+			"name": "Orange",
+			"price": 25,
+			"description": "colorful",
+			"items": [ 6, 7, 3, 4 ]
+		},
+		{
+			"name": "Banana",
+			"price": 99,
+			"description": "peel it",
+			"items": [ 1, 2, 3, 4 ]
+		}
+	],
+	"laptop": {
+		"brand": "Asus",
+		"year": 2021,
+		"ram": 8,
+		"price": 3000,
+		"generation": [1, 2, 3]
+	},
+	"phones": 2342
+}

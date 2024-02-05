@@ -1,0 +1,5 @@
+﻿<div>
+    {% for value in values %}
+        <h2>{{value.name}}</h2>
+    {% endfor %}
+</div>

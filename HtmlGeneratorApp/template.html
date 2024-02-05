@@ -1,0 +1,27 @@
+<div>
+    <h1>{{flowers}}</h1>
+    <ul id="products">
+        {% for product in products %}
+            <li>
+                <h2>{{product.name}}</h2> 
+                Only {{product.price | price }} 
+
+                {{product.description | paragraph }}
+                {% for item in product.items %}
+                <p>{{item | price }}</p>
+                {% endfor %}
+            </li>
+        {% endfor %}
+    </ul>
+    <b>
+        laptop brand: {{laptop.brand}}
+        year: {{laptop.year}}
+        memory: {{laptop.ram}}
+        price: {{laptop.price | price}}
+
+        {% for gen in laptop.generation %}
+        <p>gen:{{gen}}</p>
+        {% endfor %}
+    </b>
+    <p>{{phones | price}}</p>
+</div>

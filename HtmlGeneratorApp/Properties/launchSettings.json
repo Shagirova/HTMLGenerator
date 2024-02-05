@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HtmlGeneratorApp": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\Madina\\source\\repos\\HtmlGeneratorApp\\template.html\" \"C:\\Users\\Madina\\source\\repos\\HtmlGeneratorApp\\data.json\" \"C:\\Users\\Madina\\source\\repos\\HtmlGeneratorApp\\output.html\"\r\n"
+    }
+  }
+}
