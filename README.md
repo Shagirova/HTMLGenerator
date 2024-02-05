@@ -1,3 +1,5 @@
+It's supposed that json can have 3 types: array, object, primitive type. Based on this I tried to develop general version for json mapping to HTML template.
+PS More tests are needed to the project
 Class library named **Generator** that appears to generate HTML content based on a template and JSON data. This class uses regular expressions and string manipulation to process loops, objects, and primitive types in the template.
 
 Here's a brief overview of the key functionalities:
